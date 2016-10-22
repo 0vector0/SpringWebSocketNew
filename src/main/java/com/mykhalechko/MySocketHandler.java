@@ -8,7 +8,6 @@ import java.io.IOException;
 
 public class MySocketHandler extends TextWebSocketHandler {
 
-
     @Override
     public void handleTextMessage(WebSocketSession session, TextMessage text) throws IOException {
 
